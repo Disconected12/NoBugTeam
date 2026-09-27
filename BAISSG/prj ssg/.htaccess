@@ -1,0 +1,11 @@
+# Tùy chọn bảo mật máy chủ Apache / XAMPP
+Options -Indexes
+
+# Ngăn chặn truy cập trực tiếp vào các file cấu hình nhạy cảm hoặc file ẩn
+<FilesMatch "^\.|\.(sql|env|json|lock|log)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Cấu hình UTF-8 mặc định
+AddDefaultCharset UTF-8

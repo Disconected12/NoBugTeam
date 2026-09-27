@@ -1,0 +1,13 @@
+<?php
+/**
+ * ClubHub - File cấu hình môi trường cục bộ mẫu (Sao chép thành config.local.php)
+ */
+
+// Bỏ comment và điền thông số MySQL thực tế trên máy của bạn nếu khác cấu hình mặc định:
+/*
+define('DB_HOST', 'localhost');
+define('DB_PORT', '3306');
+define('DB_NAME', 'clubhub_db');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+*/

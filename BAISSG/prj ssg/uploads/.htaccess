@@ -1,0 +1,16 @@
+# Chặn thực thi file PHP trong thư mục uploads
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps|cgi|pl|py)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Vô hiệu hoá PHP engine nếu server dùng mod_php
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+    php_flag engine off
+</IfModule>
