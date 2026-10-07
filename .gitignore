@@ -1,0 +1,16 @@
+# Dependencies & vendor
+/vendor/
+node_modules/
+
+# Temporary / sensitive files
+test_cookie.txt
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment / local configs
+# (Bỏ comment nếu bạn có file cấu hình bí mật riêng)
+# /config/config.local.php
+
+# Uploads cache if not tracking user uploads
+# uploads/
